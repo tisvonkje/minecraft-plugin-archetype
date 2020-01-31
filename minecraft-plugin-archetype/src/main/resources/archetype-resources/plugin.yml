@@ -1,0 +1,4 @@
+name: ${artifactId}
+main: ${groupId}.${artifactId}.Plugin
+version: ${version}
+api-version: 1.15
