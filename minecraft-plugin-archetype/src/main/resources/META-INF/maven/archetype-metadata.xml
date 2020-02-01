@@ -19,7 +19,7 @@
 
 	<fileSets>
 		<fileSet filtered="true" packaged="false">
-			<directory></directory>
+			<directory>src/main/resources</directory>
 			<includes>
 				<include>plugin.yml</include>
 			</includes>
