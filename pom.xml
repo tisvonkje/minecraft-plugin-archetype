@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>nl.xymion.maven.archetypes</groupId>
@@ -9,8 +11,33 @@
 	<packaging>maven-archetype</packaging>
 
 	<name>Archetype - minecraft-plugin-archetype</name>
+	<description> A simple archetype for creating Minecraft plugins. This archetype creates dynamic content.</description>
 
-	<url>http://www.xymion.nl</url>
+	<url>http://www.xymion.nl/minecraft-plugin-archetype</url>
+
+	<organization>
+		<url>http://www.xymion.nl</url>
+		<name>Franc Grootjen</name>
+	</organization>
+	
+	<inceptionYear>2020</inceptionYear>
+
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Franc Grootjen</name>
+			<email>franc@me.com</email>
+			<organization>Xymion</organization>
+			<organizationUrl>http://www.xymion.nl</organizationUrl>
+			<timezone>CET</timezone>
+		</developer>
+	</developers>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -129,6 +156,11 @@
 			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 		</repository>
 	</distributionManagement>
+
+	<issueManagement>
+		<system>Github</system>
+		<url>https://github.com/tisvonkje/minecraft-plugin-archetype/issues</url>
+	</issueManagement>
 
 	<scm>
 		<connection>scm:git:git://github.com/tisvonkje/minecraft-plugin-archetype.git</connection>
