@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>nl.xymion.maven.archetypes</groupId>
 	<artifactId>minecraft-plugin-archetype</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<packaging>maven-archetype</packaging>
 
 	<name>Archetype - minecraft-plugin-archetype</name>
@@ -166,7 +164,7 @@
 		<connection>scm:git:git://github.com/tisvonkje/minecraft-plugin-archetype.git</connection>
 		<developerConnection>scm:git:git@github.com:tisvonkje/minecraft-plugin-archetype.git</developerConnection>
 		<url>https://github.com/tisvonkje/minecraft-plugin-archetype</url>
-		<tag>HEAD</tag>
+		<tag>minecraft-plugin-archetype-0.0.2</tag>
 	</scm>
 
 	<profiles>
